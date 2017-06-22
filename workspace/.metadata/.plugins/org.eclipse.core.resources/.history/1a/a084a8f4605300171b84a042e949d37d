@@ -1,0 +1,17 @@
+package com.Ezreal;
+
+public class AppTest {
+	public static void main(String[] args) {
+		(
+				(new Inner){
+					void setName(String name) {
+						
+					}
+				}
+		
+	}
+	static class Inner {
+		String name;
+	}
+	
+}

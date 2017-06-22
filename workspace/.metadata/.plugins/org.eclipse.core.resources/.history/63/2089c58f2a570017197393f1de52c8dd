@@ -1,0 +1,11 @@
+package com.Ezreal;
+
+class Singleton{
+	final private void test(){};
+}
+
+public class SingletonTest extends Singleton{
+	public static void main(String[] args) {
+	
+	}
+}

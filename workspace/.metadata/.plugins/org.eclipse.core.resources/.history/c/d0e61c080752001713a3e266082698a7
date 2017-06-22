@@ -1,0 +1,29 @@
+interface Face1 {
+	
+	final double Pi = 3.14;
+	abstract double area();
+}
+
+interface Face2 {
+	
+	abstract void setColor(String c);
+}
+
+interface Face3 extends Face1,Face2 {
+	
+	abstract void volume();
+}
+
+public class TestImplement implements Face3 {
+	
+	private double radius;
+	private int height;
+	protected String color;
+	public TestImplement(double r,int h) {
+		this.radius = r;
+		this.height = h;
+	}
+	public static void main(String[] args) {
+		
+	}
+}

@@ -1,0 +1,46 @@
+package com.E;
+
+import com.E.Gr.Student;
+
+class Gr {
+	
+	private int age;
+	
+	public class Student {
+		
+		String name;
+
+		public Student(){}
+		
+		public Student(String name) {
+			
+			this.name = name;
+			
+			
+		}
+		
+		public void output(){
+			System.out.println(this.name+""+age);
+		}
+	}
+	
+	public void output(){
+		Student stu = new Student("¡ı —Û",24);
+		stu.output();
+	}
+ }
+ 
+ public class Group{
+	public static void main(String[] args) {
+		
+		
+		Gr g = new Gr();
+		g.output();
+		Student str = new Student();
+		
+		
+		
+		
+	}
+}
+

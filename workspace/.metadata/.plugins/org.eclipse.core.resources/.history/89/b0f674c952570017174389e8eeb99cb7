@@ -1,0 +1,58 @@
+package com.Ezreal;
+
+class Name {
+	private String Firstname ;
+	private String Lastname;
+	public Name(){}
+	public Name(String Firstname,String Lastname) {
+		this.Firstname = Firstname;
+		this.Lastname  = Lastname;
+	}
+	
+	public String getFirstname() {
+		return Firstname;
+	}
+	
+	public String getLastname() {
+		return Lastname;
+	}
+	
+	public void setFirstname(String Firstname) {
+		this.Firstname = Firstname;
+	}
+	
+	public void setLastname(String Lastname) {
+		this.Lastname = Lastname;
+	}
+}
+
+class People {
+	private final Name name;
+	public People(Name name) {
+			this.name = name;
+	}
+	
+	public Name getName(){
+		return name;
+	}
+	
+	public String getFirstname() {
+		return name.getFirstname();
+	}
+	
+	public String getLastname() {
+		return name.getLastname();
+	}
+	
+	public String setFirstname(String Firstname) {
+		
+	}
+}
+
+public class Test {
+	public static void main(String[] args) {
+		Name n = new Name("Íõ","½¨ï¿");
+		People p = new People(n);
+		
+	}
+}

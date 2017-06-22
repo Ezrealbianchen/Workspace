@@ -1,0 +1,10 @@
+package com.E;
+
+public class Group {
+	
+	private int age;
+	
+	
+	
+
+}

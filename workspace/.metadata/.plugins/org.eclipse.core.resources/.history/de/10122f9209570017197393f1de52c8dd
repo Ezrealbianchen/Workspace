@@ -1,0 +1,21 @@
+package com.Ezreal;
+
+class Singleton {
+	private static Singleton instance;
+	private Singleton(){
+		
+	}
+	static Singleton getSingleton(){
+		if(instance==null){
+			instance = Singleton();
+		}
+		return instance;
+	}
+	
+	
+}
+
+
+public class SingletonTest {
+
+}

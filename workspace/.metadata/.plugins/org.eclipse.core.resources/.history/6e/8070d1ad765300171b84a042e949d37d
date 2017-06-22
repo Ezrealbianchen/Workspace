@@ -1,0 +1,14 @@
+
+public class ConstructorTest {
+	private String name;
+	private int age;
+	public ConstructorTest(String name,int age ){
+		this.age = age;
+		this.name = name;
+	}
+	
+	public static void main(String[] args) {
+		ConstructorTest c = new ConstructorTest("Ãû×Ö",12);
+		
+	}
+}

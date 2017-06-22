@@ -1,0 +1,13 @@
+package com.Ezreal;
+
+public class AutoBoxingUnboxing {
+	public static void main(String args[]) {
+		
+		
+		Integer i = 5;
+		String str = "12345";
+		int i1 = Integer.parseInt(str);
+		System.out.println(i1);
+	}
+
+}

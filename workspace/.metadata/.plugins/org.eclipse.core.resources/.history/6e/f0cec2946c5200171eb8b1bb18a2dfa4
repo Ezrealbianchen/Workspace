@@ -1,0 +1,30 @@
+package com.E;
+
+public class Group {
+	
+	private int age;
+	
+	public class Student {
+		
+		String name;
+		public Student(String name,int a) {
+			
+			this.name = name;
+			age  = a;
+			
+		}
+		
+		public void output(){
+			System.out.println(this.name+""+age);
+		}
+	}
+	
+	public void output(){
+		Student stu = new Student("¡ı —Û",24);
+		stu.output();
+	}
+	public static void main(String[] args) {
+		Group g = new Group();
+		g.output();
+	}
+}

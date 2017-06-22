@@ -1,0 +1,47 @@
+package com.Ezreal;
+
+class Animal1 {
+	private void beat() {
+		System.out.println("心脏跳动");
+	}
+	
+	public void breath() {
+		this.beat();
+		System.out.println("呼吸");
+	}
+	
+}
+
+class Wolf {
+	private Animal1 a;
+	public void run(){
+		System.out.println("我在奔跑");
+	}
+	
+	public void breath(){
+		a.breath();
+	}
+	
+}
+
+class Bird1 {
+	private Animal1 a;
+	
+	public Bird1(Animal1 a){
+		
+	}
+	
+	public void fly(){
+		System.out.println("我在飞");
+	}
+	public void breath(){
+		a.breath();
+	}
+}
+
+public class TestConsist {
+	public static void main(String[] args) {
+		Bird1 b = new Bird1();
+		b.breath();
+	}
+}

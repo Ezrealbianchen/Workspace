@@ -1,0 +1,9 @@
+package com.E;
+
+public class Group {
+	
+	String name;
+	
+	
+
+}

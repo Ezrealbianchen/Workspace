@@ -1,0 +1,17 @@
+package com.Ezreal;
+
+interface Animal {
+	
+	abstract void voice();
+	
+}
+
+class Dog implements Animal {
+	
+	
+}
+
+public class Store {
+	
+	
+}

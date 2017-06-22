@@ -1,0 +1,6 @@
+
+public class ConstructorTest {
+	private String name;
+	private int age;
+	
+}

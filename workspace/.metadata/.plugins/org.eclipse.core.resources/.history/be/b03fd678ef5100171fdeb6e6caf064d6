@@ -1,0 +1,40 @@
+package com.Ezreal;
+
+interface Animal {
+	
+	abstract void voice();
+	
+}
+
+class Dog implements Animal {
+	
+	public void voice(){
+		System.out.println("ÍôÍôÍô");
+	}
+}
+
+class Pig implements Animal {
+	
+	public void voice(){
+		System.out.println("à½~~à½");
+	}
+}
+
+class Cat implements Animal {
+	public void voice() {
+		System.out.println("ß÷ß÷ß÷");
+	}
+}
+
+class mothed{
+	static Animal get(){
+		
+	}
+}
+
+public class Store {
+	public static void main(String[] args) {
+
+	}
+	
+}

@@ -1,0 +1,9 @@
+package com.Ezreal;
+
+public class SingletonTest {
+	public static void main(String[] args) {
+		String s1 = "我叫王建锟";
+		String s2 = "我叫"+"王建锟";
+		
+	}
+}

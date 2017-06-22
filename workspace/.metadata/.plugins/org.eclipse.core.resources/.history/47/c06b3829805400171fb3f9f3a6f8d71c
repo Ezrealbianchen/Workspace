@@ -1,0 +1,7 @@
+import static java.lang.System.*;
+
+public class AutoBoxingUnboxing {
+	public static void main(String[] args) {
+		int i = Integer.parse("15");
+	}
+}

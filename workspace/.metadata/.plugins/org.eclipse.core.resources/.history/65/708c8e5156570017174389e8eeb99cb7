@@ -1,0 +1,10 @@
+package com.Ezreal;
+
+class CacheImmutale {
+	private static int MAX_SIZE = 10;
+	
+}
+
+public class Test1 {
+
+}

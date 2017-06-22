@@ -1,0 +1,5 @@
+import com.Ezreal.*;
+public class TestPackage {
+	Person a = new Person("a",5);
+	a.show();
+}

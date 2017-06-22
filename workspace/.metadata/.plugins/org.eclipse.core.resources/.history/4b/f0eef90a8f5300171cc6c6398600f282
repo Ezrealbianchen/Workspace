@@ -1,0 +1,23 @@
+package com.Ezreal;
+
+class Animal1 {
+	private void beat() {
+		System.out.println("心脏跳动");
+	}
+}
+
+class Wolf {
+	private Animal1 a;
+	private void run(){
+		System.out.println("我在奔跑");
+	}
+	
+	private void beat(){
+		a.beat();
+	}
+	
+}
+
+public class TestConsist {
+
+}

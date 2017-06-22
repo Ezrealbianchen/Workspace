@@ -1,0 +1,11 @@
+package com.Ezreal;
+
+class Singleton{
+	final private test(){};
+}
+
+public class SingletonTest {
+	public static void main(String[] args) {
+	
+	}
+}
